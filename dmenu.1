@@ -6,6 +6,8 @@ dmenu \- dynamic menu
 .RB [ \-bfsnv ]
 .RB [ \-l
 .IR lines ]
+.RB [ \-h
+.IR height ]
 .RB [ \-x
 .IR xoffset ]
 .RB [ \-y
@@ -65,6 +67,9 @@ dmenu instantly selects if only one match.
 .TP
 .BI \-l " lines"
 dmenu lists items vertically, with the given number of lines.
+.TP
+.BI \-h " height"
+dmenu uses a menu line of at least 'height' pixels tall, but no less than 8.
 .TP
 .BI \-x " xoffset"
 dmenu is placed at this offset measured from the left side of the monitor.
